@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SportClub</title>
-    <link rel="icon" href="./img/favicon-16x16.png">
+    <title>SportClub Sitio Oficial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+     <link rel="icon" href="./img/favicon-16x16.png">
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
@@ -13,43 +14,48 @@
         <div class="scale-in-hor-center">
             <img class="logoSize" src="./img/logosportclub.png" alt="LogoSport">
         </div>
-        <nav class="navnav">
-                <ul class="nav__ul1">
-                    <li class="nav__li"><a href="./index.html"> <strong>INICIO</strong></a></li>
-                    <li class="nav__li"><a href="./planes.html"> <strong>PLANES</strong></a></li>
-                    <li class="nav__li"><a href="./actividades.html"> <strong>ACTIVIDADES</strong></a></li>
-                    <li class="nav__li"><a href="./sedes.html"> <strong>SEDES</strong></a></li>
-                    <li class="nav__li"><a href="./quienessomos.html"> <strong>¿QUIENES SOMOS?</strong></a></li>
-                    <li class="nav__li"><a href="./contacto.html"> <strong>CONTACTO</strong></a></li>
-                </ul>
-                <ul class="nav__responsive-ul1">
-                    <div class="nav__li-container">
-                        <li class="nav__responsive-li"><a href="./index.html"> <strong>INICIO</strong></a></li>
-                        <li class="nav__responsive-li"><a href="./planes.html"> <strong>PLANES</strong></a></li>
-                        <li class="nav__responsive-li"><a href="./actividades.html"> <strong>ACTIVIDADES</strong></a></li>
-                        <li class="nav__responsive-li"><a href="./sedes.html"> <strong>SEDES</strong></a></li>
-                        <li class="nav__responsive-li"><a href="./quienessomos.html"> <strong>¿QUIENES SOMOS?</strong></a></li>
-                        <li class="nav__responsive-li"><a href="./contacto.html"> <strong>CONTACTO</strong></a></li>
-                    </div> 
-                </ul>    
-        </nav>
-        <main class="mainSede">
-            <h1 class="mapaSedes">MAPA DE SEDES</h1>
-                <div class="mapaSede1">
-                <iframe class="mapaSede2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.8569327443156!2d-68.79965678481476!3d-32.901950680934476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0ea0bc78593d%3A0x61932a53d62932c7!2sMendoza%20Plaza%20Shopping!5e0!3m2!1ses-419!2sar!4v1651366814982!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>        
+        <nav class="navbar navbar-expand-lg navegacion  ">
+            <div class="container-fluid ">
+              <a class="navbar-brand" href="./index.html"><img class="logoSizeAmarillo" src="./img/logoamarillo.png" alt="LogoSportAmarillo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+                <div class="collapse navbar-collapse justify-content-center  navegacionList" id="navbarNavAltMarkup">
+                    <div class="navbar-nav align-items-center fs-4 fw-semibold">
+                        <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+                        <a class="nav-link active" aria-current="page" href="./planes.html">PLANES</a>
+                        <a class="nav-link active" aria-current="page" href="./actividades.html">ACTIVIDADES</a>
+                        <a class="nav-link active" aria-current="page" href="./sedes.html"> SEDES</a>
+                        <a class="nav-link active" aria-current="page" href="./quienessomos.html">¿QUIENES SOMOS?</a>
+                        <a class="nav-link active" aria-current="page" href="./contacto.html">CONTACTO</a>
+                    </div>
+                </div>
+            </div>
+          </nav>
+    </header>
+    <main class="container-fluid">
+        <div class="row">
+            <div class="Sedes d-flex justify-content-center align-items-center ">
+                <div class="h1Sede1">
+                    <h1 class="mapaSedes">MAPA DE  NUESTRAS SEDES</h1>
+                    <iframe class="mapaSede2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.8569327443156!2d-68.79965678481476!3d-32.901950680934476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0ea0bc78593d%3A0x61932a53d62932c7!2sMendoza%20Plaza%20Shopping!5e0!3m2!1ses-419!2sar!4v1651366814982!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>   
+            </div>
+        </div>
         </main> 
-    <br>
-        <footer>
-            <div>
-                <ul>
-                    <p><b>CONTACTO:</b> 0261-156770857</p>
-                    <p><b>INSTAGRAM:</b> @SportClubOficial</p>
-                    <p><b>YOUTUBE:</b> SportClub.Oficial</p>
-                    <p><b>TELEGRAM:</b> 0261-156770857</p>
-                    <h2>TODOS LOS DERECHOS RESERVADOS © 2022</h2>
-                </ul>
-            </div>    
-        </footer>
+    <footer>
+        <div class="piepagina">
+            <ul class="footie">
+                <p><b>CONTACTO:</b> 0261-156770857</p>
+                <p><b>INSTAGRAM:</b> @SportClubOficial</p>
+                <p><b>YOUTUBE:</b> SportClub.Oficial</p>
+                <p><b>TELEGRAM:</b> 0261-156770857</p>
+                <h4>TODOS LOS DERECHOS RESERVADOS © 2022</h4>
+            </ul>
+        </div>    
+      </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
 </body>
 </html>

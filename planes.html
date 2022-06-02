@@ -4,41 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SportClub</title>
-    <link rel="icon" href="./img/favicon-16x16.png">
+    <title>SportClub Sitio Oficial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+     <link rel="icon" href="./img/favicon-16x16.png">
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
+    <div class="scale-in-hor-center">
+        <img class="logoSize" src="./img/logosportclub.png" alt="LogoSport">
+    </div>
     <header>
-        <div class="scale-in-hor-center">
-            <img class="logoSize" src="./img/logosportclub.png" alt="LogoSport">
-        </div>
-        <nav class="navnav">
-                <ul class="nav__ul1">
-                    <li class="nav__li"><a href="./index.html"> <strong>INICIO</strong></a></li>
-                    <li class="nav__li"><a href="./planes.html"> <strong>PLANES</strong></a></li>
-                    <li class="nav__li"><a href="./actividades.html"> <strong>ACTIVIDADES</strong></a></li>
-                    <li class="nav__li"><a href="./sedes.html"> <strong>SEDES</strong></a></li>
-                    <li class="nav__li"><a href="./quienessomos.html"> <strong>¿QUIENES SOMOS?</strong></a></li>
-                    <li class="nav__li"><a href="./contacto.html"> <strong>CONTACTO</strong></a></li>
-                </ul>
-                <ul class="nav__responsive-ul1">
-                    <div class="nav__li-container">
-                        <li class="nav__responsive-li"><a href="./index.html"> <strong>INICIO</strong></a></li>
-                        <li class="nav__responsive-li"><a href="./planes.html"> <strong>PLANES</strong></a></li>
-                        <li class="nav__responsive-li"><a href="./actividades.html"> <strong>ACTIVIDADES</strong></a></li>
-                        <li class="nav__responsive-li"><a href="./sedes.html"> <strong>SEDES</strong></a></li>
-                        <li class="nav__responsive-li"><a href="./quienessomos.html"> <strong>¿QUIENES SOMOS?</strong></a></li>
-                        <li class="nav__responsive-li"><a href="./contacto.html"> <strong>CONTACTO</strong></a></li>
-                    </div> 
-                </ul>    
-        </nav>
-    </header> 
-    <main class="mainPlanes">
-            <div class="divPlanes">
-                <h1 class="tracking-in-contract-bck">NUESTROS PLANES</h1>
-                <p class="pdelplanes"><strong>Nuestros planes Lorem</strong> ipsum dolor sit amet consectetur adipisicing elit. Laudantium deserunt quod, consectetur minima aspernatur sint, accusamus quo vitae eaque quam voluptate, nobis similique? Non, quod impedit molestiae illum ipsum dolores maxime facere doloremque dicta architecto, ea sit itaque ratione saepe. Eum exercitationem totam neque ratione non quod mollitia sed amet!</p>
+        <nav class="navbar navbar-expand-lg navegacion  ">
+            <div class="container-fluid ">
+              <a class="navbar-brand" href="./index.html"><img class="logoSizeAmarillo" src="./img/logoamarillo.png" alt="LogoSportAmarillo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+                <div class="collapse navbar-collapse justify-content-center  navegacionList" id="navbarNavAltMarkup">
+                    <div class="navbar-nav align-items-center fs-4 fw-semibold">
+                        <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+                        <a class="nav-link active" aria-current="page" href="./planes.html">PLANES</a>
+                        <a class="nav-link active" aria-current="page" href="./actividades.html">ACTIVIDADES</a>
+                        <a class="nav-link active" aria-current="page" href="./sedes.html"> SEDES</a>
+                        <a class="nav-link active" aria-current="page" href="./quienessomos.html">¿QUIENES SOMOS?</a>
+                        <a class="nav-link active" aria-current="page" href="./contacto.html">CONTACTO</a>
+                    </div>
+                </div>
             </div>
+          </nav>
+    </header> 
+    <main class="container contenedorPlanes d-flex flex-column justify-content-center">
+        <div class="row  align-items-center mx-auto">
+                <h1>NUESTROS PLANES</h1>
+                <div class="PlanesTotal">    
+                <p>SportClub es la marca líder en servicios deportivos más grande de la Argentina desde hace más de 30 años. Cuenta con +150 centros deportivos adheridos con máquinas de última generación e instalaciones modernas y espaciosas para garantizarle a sus más de 100K socios el mejor entrenamiento.
+                 El socio puede elegir entre los tres planes que ofrecemos:
+                <b>-PLAN ELITE SC:</b> consiste en el libre acceso a los Servicios en el Local ELITE determinado y por el cual abona la cuota diferencial; para el caso que desee acceder a otro Local ELITE, deberá abonar la cuota diferencial correspondiente a cada Local ELITE, de forma individual y en cada Local por separado. Así también a todos los Locales identificados como TOTAL SC; PLUS SC, que integran la Cadena de Clubes
+                <b>-PLAN TOTAL SC:</b> consiste en el libre acceso a los Servicios en los Locales identificados como TOTAL SC; PLUS SC, que integran la Cadena de Clubes
+                <b>-PLAN PLUS SC:</b> consiste en el libre acceso a los Servicios únicamente en los Locales identificados como PLUS SC, que integran la Cadena de Clubes. Promoción disponible en algunos locales; con acceso limitado a determinados locales en precio inferior a los incluidos en el PLAN TOTAL SC.
+                <b>-PASE DIARIO SC:</b> únicamente para los planes PLUS SC. Cualquier Usuario de los Planes PLUS SC podrá utilizar cualesquiera de los Locales de la Cadena de Clubes (que no se encuentren incluidos en su Plan) mediante el pago de un arancel diario en el Local en donde pretendan realizar las actividades deportivas contratadas, en el momento que las utilice.
+                La determinación, identificación y calificación de los Locales en donde se presten los servicios y el tipo de actividades a brindarse, será determinada por el prestador de cada Local, reservándose éste el derecho de incluir, readecuar, variar o suprimir las mismas de acuerdo a su propio criterio, debiendo el Usuario abonar los valores vigentes correspondientes a cada categoría a cada momento que se preste el servicio, de acuerdo al Plan seleccionado. </p>
+            </div>
+    </div>
     </main>
     <footer>
         <div>
@@ -47,9 +55,11 @@
                 <p><b>INSTAGRAM:</b> @SportClubOficial</p>
                 <p><b>YOUTUBE:</b> SportClub.Oficial</p>
                 <p><b>TELEGRAM:</b> 0261-156770857</p>
-                <h2>TODOS LOS DERECHOS RESERVADOS © 2022</h2>
+                <p>TODOS LOS DERECHOS RESERVADOS © 2022</p>
             </ul>
         </div>       
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
 </body>
 </html>
