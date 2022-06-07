@@ -18,7 +18,7 @@ header{
       text-align: center;
       flex: 30px;
       margin-bottom: 30px;
-      padding: 2px;
+      padding: 1px;
 }
 
 /*    K E Y F R A M E  L O G O   
@@ -104,9 +104,9 @@ header{
 
 
 /* CSS PLANES */
-.contenedorPlanes{
+/* .contenedorPlanes{
 
-}
+} */
 
 
 .pesaRusa{
@@ -161,6 +161,7 @@ header{
       margin-right: -15px;
       margin-left: -15px;
 }
+
 video{
       width: 75%;
 }
@@ -190,8 +191,8 @@ video{
 /* CSS QUIENES SOMOS */
 
 .Quienes h1{
-      margin: 1.75rem;
-      color: black;
+            margin: 1.75rem;
+            color: black;
 }
 
 .quienesP{
@@ -268,6 +269,50 @@ footer{
        RESPONSIVE  
              INDEX */
 
+/* RESPONSIVE PARA 768px */             
+
+@media only screen and (max-width: 768px){
+
+body{
+      background-color: black;
+      }
+
+.logoSize{
+      height: auto;
+      width: 100%;      
+}
+
+.scale-in-hor-center{
+      background-color: gray;
+}
+.welcome{
+      color:azure;
+}
+/* PLANES 768px RESPONSIVE */
+.planes768{
+      color: azure;
+}
+
+/* ACTIVIDADADES 768px RESPONSIVE */
+.h1Activ{
+      color:azure;
+}
+
+/* SEDES 768px RESPONSIVE */
+.h1Sede1{
+      color:azure;
+}
+
+/* QUIENESSOMOS 768px RESPONSIVE */
+.Quienesh1p{
+      color: azure;
+}
+/* CONTACTO 768px RESPONSIVE */
+.maindiv{
+      color:azure;
+}
+
+}
  
 @media only screen and (max-width: 480px){
 
@@ -294,7 +339,6 @@ header{
       height: 35px;
       width: 100%;
 }
-
 
 
 footer{
