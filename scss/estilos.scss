@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    text-align: center;
+}
+
+.barraNavegacion{
+    width: 100%;
+    height: auto;
+    color: red;
+    text-align: center;
+    flex: 30px;
+    margin-bottom: 30px;
+    padding: 1px;
+
+    .navegacion{
+        background-color: rgb(196, 24, 24);
+    }
+
+    .logoSizeAmarillo{
+        height: 50px;
+        border-radius: 75px;
+    }
+}
+
+
+
+/*    K E Y F R A M E  L O G O   
+               DEL 
+           INDEX.HTML */
+.scale-in-hor-center {
+     -webkit-animation: scale-in-hor-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: scale-in-hor-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+          
+          
+@-webkit-keyframes scale-in-hor-center {
+0% {
+    -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+          opacity: 1;
+              }
+100% {
+    -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+          opacity: 1;
+    }
+}
+@keyframes scale-in-hor-center {
+0% {
+    -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+          opacity: 1;
+    }
+100% {
+    -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+          opacity: 1;
+    }
+}
+
+
+
+
+/* CSS INDEX */
+
+.text-focus-in2 {
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+          animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+.carousel.inner{
+    height: 50vh;
+}
+
+
+/* CSS PLANES */
+/* .contenedorPlanes{
+
+} */
+
+
+.pesaRusa{
+    width: 450px;
+    height: auto;
+}
+
+.tracking-in-contract-bck {
+-webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+      animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-contract-bck {
+0% {
+  letter-spacing: 1em;
+  -webkit-transform: translateZ(400px);
+          transform: translateZ(400px);
+  opacity: 0;
+}
+40% {
+  opacity: 0.6;
+}
+100% {
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  opacity: 1;
+}
+}
+@keyframes tracking-in-contract-bck {
+0% {
+  letter-spacing: 1em;
+  -webkit-transform: translateZ(400px);
+          transform: translateZ(400px);
+  opacity: 0;
+}
+40% {
+  opacity: 0.6;
+}
+100% {
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  opacity: 1;
+}
+}
+
+
+/* CSS ACTIVIDADES */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+video{
+    width: 75%;
+}
+
+.ACTIVIDADES{
+    background-color: white;
+    color: black;
+    text-decoration: double;
+}
+
+.videitoActividades {
+    height: 480px;
+    margin: 1.25rem;
+}
+
+/* CSS SEDES */
+
+.h1Sede1{
+    margin: 1.75rem;
+}
+.mapaSede1{
+    margin: 1.75rem;
+}
+
+
+
+/* CSS QUIENES SOMOS */
+
+.Quienes h1{
+          margin: 1.75rem;
+          color: black;
+}
+
+.quienesP{
+    margin: 1.75rem;
+}
+
+
+/* CSS  CONTACTO  */
+
+
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+@-webkit-keyframes tracking-in-expand {
+0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+}
+40% {
+      opacity: 0.6;
+}
+100% {
+      opacity: 1;
+}
+}
+@keyframes tracking-in-expand {
+0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+}
+40% {
+      opacity: 0.6;
+}
+100% {
+      opacity: 1;
+}
+}
+
+.formConta form{
+    box-sizing: border-box;
+    border-style: inset;
+    background-color: grey;
+    color: black;
+    text-decoration: underline;
+}
+
+/*
+ F 
+   O
+      O 
+        T 
+          E 
+            R
+            CSS   
+              */
+
+
+footer{
+    width: 100%;
+    margin-top: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(196, 24, 24);
+    color: black;
+    text-align: center;
+    font-size: 10px;
+}
+
+              
+
+/* CODIGO 
+     RESPONSIVE  
+           INDEX */
+
+/* RESPONSIVE PARA 768px */             
+
+@media only screen and (max-width: 768px){
+
+body{
+    background-color: black;
+    }
+
+.logoSize{
+    height: auto;
+    width: 100%;      
+}
+
+.scale-in-hor-center{
+    background-color: gray;
+}
+.welcome{
+    color:azure;
+}
+/* PLANES 768px RESPONSIVE */
+.planes768{
+    color: azure;
+}
+
+/* ACTIVIDADADES 768px RESPONSIVE */
+.h1Activ{
+    color:azure;
+}
+
+/* SEDES 768px RESPONSIVE */
+.h1Sede1{
+    color:azure;
+}
+
+/* QUIENESSOMOS 768px RESPONSIVE */
+.Quienesh1p{
+    color: azure;
+}
+/* CONTACTO 768px RESPONSIVE */
+.maindiv{
+    color:azure;
+}
+
+}
+
+@media only screen and (max-width: 480px){
+
+/* INDEX.HTML RESPONSIVE */     
+
+body{
+    background-color: gray;
+    text-align: center;
+}
+header{
+    width: 100%;
+}
+
+.navnav{
+    width: 100%;
+}
+      
+.logoSize{
+    height: auto;
+    width: 100%;
+}
+
+.nav {
+    height: 35px;
+    width: 100%;
+}
+
+
+footer{
+    width: 100%;
+    padding-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(26, 26, 26);
+    color: rgb(255, 174, 0);
+    position: static;
+    text-align: center;
+    font-size: 9px;
+}    
+
+
+/* ACTIVIDADES.HTML RESPONSIVE */
+
+.mainActividades{
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: 10px;
+}
+
+
+.h1yp{
+    background-color: rgb(255, 174, 0);
+    margin-top: 125px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.h1yp h1{
+    display: none;
+}
+
+.videitoActividades video{
+    box-sizing: border-box;
+    max-width: 30rem;
+    max-height: 20rem;
+    margin:10px 1px 1px -20px;
+}
+
+/* PLANES.HTML RESPONSIVE */
+
+.contenedorPlanes{
+    width: auto;
+    margin-top: 20px;
+
+}
+/* SEDES R E S P O N S I V E */
+
+.mapaSedes{
+    color: black;
+    font-size: 1.7rem;
+}
+
+
+iframe {
+    box-sizing: border-box;
+    width: 50vh;
+    height: 50vh;
+}
+
+
+/* QUIENES SOMOS .HTML RESPONSIVE */
+
+
+.quienesP{
+
+   background-color: rgb(255, 166, 0);
+    font-size: 1rem;
+}
+
+
+/* CONTACTO.HTML RESPONSIVE */
+
+
+.contactmain{
+    height: 50vp;
+}
+
+/* 
+fieldset{
+    box-sizing: border-box;
+    border: 2px solid;
+    font-size: 15px;
+    padding: 50px 1px 1px 1px;
+    width: 75%;
+    background-color: rgb(255, 166, 0);
+} */
+}
