@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,WAAW,EAAE,yGAAyG;EACtH,gBAAgB,EAAE,KAAkB;EACpC,eAAe,EAAE,KAAK;EACtB,UAAU,EAAE,MAAM;CACrB",
+    "sources": [
+        "../parciales/body.scss"
+    ],
+    "names": [],
+    "file": "body.css"
+}

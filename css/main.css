@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: white;
+  background-size: cover;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #c41818;
+  color: black;
+}
+
+.footer__footie {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.footer__footerH4 {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=main.css.map */
