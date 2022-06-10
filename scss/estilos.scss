@@ -1,3 +1,7 @@
+// VARIABLES 
+$colorTitulos768: azure;
+$fontFamily: 'Lucida Sans'; 
+
 *{
     margin: 0;
     padding: 0;
@@ -249,7 +253,7 @@ video{
 .footer{
     width: 100%;
     margin-top: 1rem;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:$fontFamily;
     background-color: rgb(196, 24, 24);
     color: black;
     text-align: center;
@@ -279,30 +283,30 @@ body{
     background-color: gray;
 }
 .welcome{
-    color:azure;
+    color:$colorTitulos768;
 }
 /* PLANES 768px RESPONSIVE */
 .planes768{
-    color: azure;
+    color: $colorTitulos768;
 }
 
 /* ACTIVIDADADES 768px RESPONSIVE */
 .h1Activ{
-    color:azure;
+    color:$colorTitulos768;
 }
 
 /* SEDES 768px RESPONSIVE */
 .h1Sede1{
-    color:azure;
+    color:$colorTitulos768;
 }
 
 /* QUIENESSOMOS 768px RESPONSIVE */
 .Quienesh1p{
-    color: azure;
+    color: $colorTitulos768;
 }
 /* CONTACTO 768px RESPONSIVE */
 .maindiv{
-    color:azure;
+    color:$colorTitulos768;
 }
 
 }
